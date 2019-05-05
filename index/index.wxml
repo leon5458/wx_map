@@ -1,0 +1,23 @@
+<view class="page-body">
+    <map
+      id="map"
+      style="width:100%; height:{{Height}}px"
+      scale='16'
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      bindmarkertap="bindmarkertap"
+      show-location="true"></map>
+
+      <cover-view class='cov_view'>
+      <cover-image src='../image/selectstar.png' class='cov_image' bindtap='click'></cover-image>
+      <cover-image src='../image/img1.jpg' class='center_image'></cover-image>
+      <cover-image src='../image/3.png'class='cov_image'bindtap='click' ></cover-image>
+      </cover-view>
+     
+</view>
+
+
+
+
